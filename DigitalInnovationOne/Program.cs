@@ -6,7 +6,10 @@ namespace DigitalInnovationOne
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int loop = 5;
+            for (int i=0; i< loop; i++) {
+              Console.WriteLine($"Welcome to .Net course {i}");
+            }
         }
     }
 }
