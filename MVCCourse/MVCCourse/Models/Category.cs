@@ -12,6 +12,5 @@ namespace MVCCourse.Models
         [Display(Name = "Description")]  
         [Required(ErrorMessage = "Field Description is required")]
         public string Description { get; set; }
-        public List<Product> Products { get; set; }
     }
 }
