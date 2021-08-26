@@ -1,0 +1,7 @@
+Install-Package Microsoft.EntityFrameWorkCore.SqlServer
+Install-Package Microsoft.EntityFrameWorkCore.Tools
+
+@"Server=localhost\SQLEXPRESS;Database=MVCCorse;Trusted_Connection=True"
+
+Add-Migration InitialCreate
+Update-Database
