@@ -33,6 +33,9 @@ namespace APICourse.Controllers
         {
             var category = await _context.Categories.FindAsync(id);
 
+            //Just for testing the layer test
+            //var category2 = await _context.Categories.FindAsync(id);
+
             if (category == null)
             {
                 return NotFound();
@@ -51,7 +54,7 @@ namespace APICourse.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(category).State = EntityState.Modified;
+            _context.SetModified(category);
 
             try
             {

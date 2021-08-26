@@ -8,11 +8,16 @@ namespace MVCCourse.Models
 {
     public class Context : DbContext
     {
-        public DbSet<Category> Categories { get; set; }
+        public virtual DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=MVCCorse;Trusted_Connection=True");
+        }
+
+        public virtual void SetModified(object entity)
+        {
+            Entry(entity).State = EntityState.Modified;
         }
     }
 }

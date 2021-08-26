@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCCourse", "MVCCourse\MVCC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICourse", "..\APICourse\APICourse.csproj", "{D5E0D684-CC6F-4A70-9977-B442A26F95A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCourse", "..\TestCourse\TestCourse.csproj", "{6C1B4594-3901-4C20-B79D-713C6E93625A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D5E0D684-CC6F-4A70-9977-B442A26F95A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5E0D684-CC6F-4A70-9977-B442A26F95A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5E0D684-CC6F-4A70-9977-B442A26F95A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1B4594-3901-4C20-B79D-713C6E93625A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1B4594-3901-4C20-B79D-713C6E93625A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1B4594-3901-4C20-B79D-713C6E93625A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1B4594-3901-4C20-B79D-713C6E93625A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
