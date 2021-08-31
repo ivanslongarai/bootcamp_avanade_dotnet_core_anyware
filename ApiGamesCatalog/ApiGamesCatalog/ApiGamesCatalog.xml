@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiGamesCatalog</name>
+    </assembly>
+    <members>
+        <member name="M:ApiGamesCatalog.Controllers.V1.GamesController.Get(System.Int32,System.Int32)">
+            <sumary>Get all games using pagination</sumary>
+            <remarks>It's not possible get games list without pagination</remarks>
+            <param name="page">Set the used page. Minimum value =1</param>
+            <param name="amount">Amount of records by page. Minimum 1, Maximum 50</param>
+            <response code="200">Show the games list</response>
+            <response code="204">Just in case there are no games to show</response>
+        </member>
+    </members>
+</doc>
